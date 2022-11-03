@@ -11,12 +11,12 @@ public class ActionClass {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 		
-		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		
-		//driver.get("https://www.amazon.in/");
-		//driver.manage().window().maximize();
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
 		
-		//Thread.sleep(5000);
+		Thread.sleep(5000);
 		
 		WebElement src = driver.findElement(By.xpath("(//a[@class='nav-a nav-a-2   nav-progressive-attribute'])[1]"));  //Main source Hello, Makarand element
 		
