@@ -16,7 +16,7 @@ public class ActionClass {
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 		
-		Thread.sleep(5000);
+	//	Thread.sleep(5000);
 		
 		WebElement src = driver.findElement(By.xpath("(//a[@class='nav-a nav-a-2   nav-progressive-attribute'])[1]"));  //Main source Hello, Makarand element
 		
